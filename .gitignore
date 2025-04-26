@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+
+# Conda environment files
+*.conda
+*.env
+*.yml
+
+# MoviePy temp files
+*.mp4~  # temp render files
+moviepy_temp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and debug
+*.log
+
+# Pickle/cache/data
+*.pkl
+*.cache/
+*.dat
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Mac metadata
+Icon?
+
+# Keys and other dirs
+keys/
+input_files/
+output_files/
+

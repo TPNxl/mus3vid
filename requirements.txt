@@ -1,0 +1,3 @@
+pydantic-ai==0.1.6
+google-genai==1.12.1
+moviepy==2.1.2
