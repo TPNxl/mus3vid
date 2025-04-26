@@ -110,15 +110,16 @@ Use it. Break it. Build on it. Just don’t sue me if it blows up your computer.
 ---
 
 ## Credits ✨
-- **Gemini 2.5 Flash** for music analysis.
-- **Gemini VEO** for video generation.
+- Purvish's [mus2vid-redux](https://github.com/pjjajal/mus2vid-redux/tree/main) repo built using [Mu-LLaMA](https://github.com/shansongliu/MU-LLaMA) as inspiration.
+- **Gemini 2.5 Pro** for music analysis.
+- **Google VEO** for video generation.
 - **moviepy** for video stitching.
 - **pydantic_ai** for model orchestration.
 
 ---
 
 ## Future Plans 💡
-- Add support for **different aspect ratios**.
+- Add support for **different video generation models** - Veo is expensive!
 - Enable **custom audio-visual themes**.
 - Implement **batch processing reports**.
 
