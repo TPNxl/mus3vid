@@ -3,7 +3,7 @@ Mus3Vid: Music-to-Video Generation Script (version 3-ish)
 
 Pipeline:
 1. Load audio file.
-2. Generate music description metadata using Gemini 2.5 Flash model.
+2. Generate music description metadata using Gemini 2.5 Pro model.
 3. Generate video clips for each section using Gemini's VEO model.
 4. Merge generated video clips and overlay the original audio track.
 """
