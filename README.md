@@ -1,11 +1,18 @@
-# Mus3Vid 🎵➡️🎥  
+# Mus3Vid: Your Multimodal Foundation Model is Secretly Synesthetic 🎵➡️🎥  
 *Turn your music into video magic.*
 
 Mus3Vid is a Python pipeline that takes an audio file (MP3/WAV), uses **Gemini 2.5 Pro** to analyze it, generates video clips via **Google Veo 2**, and stitches everything together into a polished, synced video. Perfect for musicians, content creators, or anyone who wants custom visuals without breaking a sweat.
 
+## Isn't this just a glorified wrapper for two foundation models?
+We’re not here to reinvent the wheel. But multimodal LLMs (mLLMs) are secretly way more synesthetic and aware than they let on. Blend that with a video generation model, and suddenly you’re bridging two distinct non-text modalities without any of the usual ML overhead:
+- **without** ImageBind or separate cross-modal alignment
+- **without** fine-tuning - at all, just a scrambled-together prompt
+- **without** fancy attention tricks or embedding-space ops designed to weld models together like conjoined twins
+- and most importantly, with only a little over 300 lines of code, written on a Friday night in 4 hours with 4 hours of sleep. **Vibe coding :sparkle:**
+
 ## Features 🚀
 - **Automatic Music Analysis**: Breaks down the song into sections and generates descriptive prompts using [Google's Gemini 2.5 Pro LLM](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025).
-- **AI-Powered Video Generation**: Uses [Google's Veo 2 video-generation model](https://deepmind.google/technologies/veo/veo-2/)] to create unique video clips for each section.
+- **AI-Powered Video Generation**: Uses [Google's Veo 2 video-generation model](https://deepmind.google/technologies/veo/veo-2/) to create unique video clips for each section.
 - **Seamless Audio Sync**: Merges generated visuals and overlays the original audio.
 - **Queue-Based Video Rendering**: Limits simultaneous generations for stability and efficiency.
 - **Custom Prompts**: Tailor your video generation style via editable prompt templates.
