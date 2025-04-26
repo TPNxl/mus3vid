@@ -1,5 +1,5 @@
 # Mus3Vid: Your Multimodal Foundation Model is Secretly Synesthetic 🎵➡️🎥  
-*Turn your music into video magic.*
+*Should be called Mus2Vid. But that name's already taken.*
 
 Mus3Vid is a Python pipeline that takes an audio file (MP3/WAV), uses **Gemini 2.5 Pro** to analyze it, generates video clips via **Google Veo 2**, and stitches everything together into a polished, synced video. Perfect for musicians, content creators, or anyone who wants custom visuals without breaking a sweat.
 
