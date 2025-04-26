@@ -54,6 +54,8 @@ mus3vid/
 └── README.md        # This file
 ```
 
+You can run the script once to create all the folders naturally.
+
 ---
 
 ## Usage 🏃‍♂️
